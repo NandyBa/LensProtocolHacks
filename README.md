@@ -14,7 +14,7 @@ This repo is here to save life hacks.
 
 1. [Get Bob Lens Profile Id](#get-default-lens-profile-id-of-a-specific-address)
 2. [Get Bob's Follow contract](#get-users-follow-contract)
-3. Call [Bob's FollowNFT](#get-users-follow-contract) as FollowNFT proxy ([doc](https://docs.lens.xyz/docs/deployed-contract-addresses)) **balanceOf** *
+3. Call [Bob's FollowNFT](#get-users-follow-contract) as FollowNFT proxy ([doc](https://docs.lens.xyz/docs/deployed-contract-addresses)) **balanceOf** function.
 
 balanceOf(AliceAddress)
 
