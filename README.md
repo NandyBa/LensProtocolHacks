@@ -1,4 +1,4 @@
-# LensProtocolHacks
+# LensProtocolLifeHacks
 
 This repo is here to save life hacks.
 
