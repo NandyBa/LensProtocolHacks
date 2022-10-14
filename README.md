@@ -22,6 +22,22 @@ balanceOf(AliceAddress)
 - if balance >= 1 Alice follow Bob
 - if balance == 0 Alice don't follow Bob
 
+## Get user profile picture:
+*Call [LensHub Proxy](#smart-contracts) **getProfile** function*
+
+getProfile(LensProfileId)
+
+**return**
+We are interested in the 5th element the **imageURI** (type string)
+
+**List of the complet data structure return**
+- pubCount	uint256	The publication count associated with this profile
+- followModule	address	The follow module associated with this profile, if any
+- followNFT	address	The follow NFT associated with this profile, if any
+- handle	string	The handle associated with this profile
+- **imageURI**	string	The URI associated with this profile's image *(What we interrested in)*
+- followNFTURI	string	The URI associated with this profile's follow NFT
+
 ### Smart contracts:
 #### Polygon Mainnet Addresses :
 - LensHub Proxy: 0xDb46d1Dc155634FbC732f92E853b10B288AD5a1d ([doc](https://docs.lens.xyz/docs/deployed-contract-addresses))
