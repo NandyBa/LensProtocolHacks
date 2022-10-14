@@ -7,7 +7,7 @@ This repo is here to save life hacks.
 1. [Get user's Lens profile id](#get-default-lens-profile-id-of-a-specific-address)
 2. [Get user's Follow contract](#get-users-follow-contract)
 3. [Get user's total number of followers](#get-users-total-number-of-followers)
-4. [Get all user's followers]()
+4. [Get all user's followers](#get-all-users-followers)
 
 ### Smart contracts:
 - LensHub Proxy: 0xDb46d1Dc155634FbC732f92E853b10B288AD5a1d ([doc](https://docs.lens.xyz/docs/deployed-contract-addresses))
@@ -35,5 +35,12 @@ getFollowNFT(LensProfileId)
 totalSupply()
 
 **return** totalSupply (type unit256)
+
+## Get all user's followers
+*Loop Call [FollorNFTAddress](#get-users-follow-contract) as FollowNFT proxy ([doc](https://docs.lens.xyz/docs/deployed-contract-addresses)) **tokenId** function*
+
+ownerOf(tokenId)
+
+**return** followerAddress
 
 
