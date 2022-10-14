@@ -13,3 +13,10 @@ This repo is here to save life hacks.
 DefaultProdile(walletAddress)
 
 **return** LensProfileId
+
+## Get list of follower for a specific user
+*We will asume you know the user address and you want to track his default Lens profile*
+1. [Get user's Lens profile id](#get-default-lens-profile-id-of-a-specific-address)
+2. [Get user's Follow contract]()
+3. [Get user's total number of followers]()
+4. [Get all user's followers]()
