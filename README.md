@@ -1,6 +1,6 @@
 # LensProtocolLifeHacks
 
-This repo is here to save life hacks.
+This repo is here to save life hacks regarding [Lens Protocol](https://lens.xyz)
 
 ## Get list of followers for a specific user
 *We will asume you know the user address and you want to track his default Lens profile*
