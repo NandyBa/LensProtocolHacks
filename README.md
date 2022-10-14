@@ -23,7 +23,11 @@ balanceOf(AliceAddress)
 - if balance == 0 Alice don't follow Bob
 
 ### Smart contracts:
+#### Polygon Mainnet Addresses :
 - LensHub Proxy: 0xDb46d1Dc155634FbC732f92E853b10B288AD5a1d ([doc](https://docs.lens.xyz/docs/deployed-contract-addresses))
+
+#### Mumbai Testnet Addresses (Polygon Testnet) :
+- LensHub Proxy: 0x60Ae865ee4C725cd04353b5AAb364553f56ceF82 ([doc](https://docs.lens.xyz/docs/deployed-contract-addresses))
 
 
 ## Get default Lens profile id of a specific address:
