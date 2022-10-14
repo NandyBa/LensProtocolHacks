@@ -30,14 +30,14 @@ getFollowNFT(LensProfileId)
 **return** FollorNFTAddress
 
 ## Get user's total number of followers
-*Call [FollorNFTAddress](#get-users-follow-contract) as FollowNFT proxy ([doc](https://docs.lens.xyz/docs/deployed-contract-addresses)) **totalSupply** function*
+*Call [FollowNFTAddress](#get-users-follow-contract) as FollowNFT proxy ([doc](https://docs.lens.xyz/docs/deployed-contract-addresses)) **totalSupply** function*
 
 totalSupply()
 
 **return** totalSupply (type unit256)
 
 ## Get all user's followers
-*Loop Call [FollorNFTAddress](#get-users-follow-contract) as FollowNFT proxy ([doc](https://docs.lens.xyz/docs/deployed-contract-addresses)) **tokenId** function*
+*Loop Call [FollowNFTAddress](#get-users-follow-contract) as FollowNFT proxy ([doc](https://docs.lens.xyz/docs/deployed-contract-addresses)) **tokenId** function*
 
 ownerOf(tokenId)
 
