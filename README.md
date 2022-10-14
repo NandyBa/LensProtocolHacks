@@ -37,7 +37,7 @@ totalSupply()
 **return** totalSupply (type unit256)
 
 ## Get all user's followers
-*Loop Call [FollowNFTAddress](#get-users-follow-contract) as FollowNFT proxy ([doc](https://docs.lens.xyz/docs/deployed-contract-addresses)) **tokenId** function*
+*Loop Call [FollowNFTAddress](#get-users-follow-contract) as FollowNFT proxy ([doc](https://docs.lens.xyz/docs/deployed-contract-addresses)) **tokenId** function until tokenId > totalSupply*
 
 ownerOf(tokenId)
 
